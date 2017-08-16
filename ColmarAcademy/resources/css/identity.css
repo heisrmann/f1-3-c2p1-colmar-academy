@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin'), 
+       local('Cabin-Regular'), 
+       url(../fonts/Cabin-Regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Bold'), 
+       local('Cabin-Bold'), 
+       url(../fonts/Cabin-Bold.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family:whitney-bookregular;
+  src: url(../fonts/whitney-book-webfont.eot);
+  src: url(../fonts/whitney-book-webfont.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/whitney-book-webfont.woff2) format('woff2'),
+       url(../fonts/whitney-book-webfont.woff) format('woff'),
+       url(../fonts/whitney-book-webfont.ttf) format('truetype'),
+       url(../fonts/whitney-book-webfont.svg#whitney-bookregular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+  
+@font-face{
+  font-family: whitney-mediumregular;
+  src: url(../fonts/whitney-medium-webfont.eot);
+  src: url(../fonts/whitney-medium-webfont.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/whitney-medium-webfont.woff2) format('woff2'),
+       url(../fonts/whitney-medium-webfont.woff) format('woff'),
+       url(../fonts/whitney-medium-webfont.ttf) format('truetype'),
+       url(../fonts/whitney-medium-webfont.svg#whitney-mediumregular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+  
+@font-face{
+  font-family: whitney-semiboldregular;
+  src: url(../fonts/whitney-semibold-webfont.eot);
+  src: url(../fonts/whitney-semibold-webfont.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/whitney-semibold-webfont.woff2) format('woff2'),
+        url(../fonts/whitney-semibold-webfont.woff) format('woff'),
+        url(../fonts/whitney-semibold-webfont.ttf) format('truetype'),
+        url(../fonts/whitney-semibold-webfont.svg#whitney-semiboldregular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+  
+@font-face{
+  font-family: Athelas-Italic;
+  src: url(../fonts/Athelas-Italic.eot);
+  src: url(../fonts/Athelas-Italic.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Athelas-Italic.woff2) format('woff2'),
+        url(../fonts/Athelas-Italic.woff) format('woff'),
+        url(../fonts/Athelas-Italic.ttf) format('truetype'),
+        url(../fonts/Athelas-Italic.svg#Athelas-Italic) format('svg');
+  font-weight: 400;
+  font-style: normal
+}
+
+/* use for development 
+header, footer, div, nav, ul, li, span, img, h1, h2, h3, a {
+ border: .03125rem solid orchid; 
+}
+*/
